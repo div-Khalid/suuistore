@@ -1,0 +1,135 @@
+p
+{font-family: Roboto,Arial;}
+
+.grid
+{
+  display: grid;
+  grid-template-rows: 100px 500px;
+}
+
+.gridname
+{
+  text-align: center;
+  padding-top: 20px ;
+}
+
+.gridtextbutton
+{
+  background-color: rgb(215, 215, 215);
+  height: 60px;
+  width: 250px;
+  border-radius: 20px ;
+  border-width: 0;
+}
+
+.gridtextbutton:hover
+{
+  background-color: rgb(255, 217, 0);
+}
+
+.gridtextbutton:active
+{
+  opacity: 0.6;
+}
+
+.gridtext
+{
+  font-size: 25px;
+  margin: 0;
+  color: white;
+  font-weight: 600;
+}
+
+.gridcontent
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.itembuuton
+{
+  background-color: transparent;
+  border-width: 0;
+}
+
+.content
+{
+height: 100%;
+ width: 100%;
+ display: grid;
+ grid-template-rows: 5fr 2fr ;
+ margin: 5px;
+ background-color: rgb(243, 243, 243);
+ border-width: 2px;
+ border-color: rgb(233, 233, 233);
+ border-style: solid;
+ justify-items: center;
+ padding-top: 20px;
+}
+
+.content:hover
+{
+  opacity: 0.9;
+  background-color: rgb(211, 211, 211);
+}
+
+.content:active
+{
+  background-color: gray;
+}
+
+.cont1
+{
+  position: relative;
+  height: 250px;
+  align-content: center;
+}
+
+.data
+{
+  text-align: center;
+  width: 80%;
+}
+
+
+.sale
+{
+  padding: 0;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 85, 85);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.itemdata
+{
+  text-align: center;
+  padding: 0;
+  padding-top: 3px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.itemprice
+{
+  padding: 0;
+  padding-top: 3px;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.itemoldprice
+{
+  padding: 0;
+  padding-top: 3px;
+  margin: 0;
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+
+
+

@@ -1,0 +1,188 @@
+p{ font-family:Roboto, Arial;}
+
+body  {
+margin: 0;
+padding:0 ;}
+
+.body
+{ margin: 0;}
+
+
+
+.head
+{
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:100px;
+  position: fixed;
+  background-color: rgb(26, 27, 37);
+  justify-content: space-between;
+  max-height: 150px;
+  z-index: 1;
+}
+
+.headpadding
+{
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:100px;
+  position:static;
+  background-color: rgb(26, 27, 37);
+  justify-content: space-between;
+  max-height: 150px;
+}
+
+@media (max-width: 1200px)
+{
+  .head { height:150px}
+  .headpadding { height:150px}
+}
+
+.left
+{
+  align-content: center;
+  padding:0px;
+  margin-left: 20px;
+  min-width: 150px;
+  text-align: center;
+}
+
+.SUUI_WORD
+{
+  width: 150px;
+  color: white;
+  font-size: 26px;
+  font-weight: 800;
+  justify-self: left;
+
+}
+
+
+.centre
+{
+ display: flex;
+ align-items: center;
+
+}
+
+.searchbox
+{
+  padding-left: 15px;
+  display: flex;
+  height:50%;
+  width: 450px;
+  min-width: 70px;
+  font-size: 15px;
+  font-weight: 500;
+  border-style: solid;
+  border-color: gray;
+}
+
+.searchbutton
+{
+  height:50%;
+  padding: 0;
+  background-color: rgb(255, 217, 0);
+  border-style:solid ;
+  border-color: gray;
+  margin-left: -2px;
+}
+
+.searchbutton:hover
+{
+  background-color: rgba(255, 217, 0, 0.707);
+}
+
+.searchbutton:active
+{
+  background-color:rgba(255, 217, 0, 0.311) ;
+}
+
+.searchicon
+{
+  height:80%;
+}
+
+.right
+{
+width: 8%;
+display: grid;
+grid-template-rows: 50% 50%;
+min-width: 200px;
+justify-items: right;
+
+}
+
+
+.signinbox
+{
+  align-content: center;
+  width: 120px;
+  margin-right:20px;
+}
+
+.signupbox
+{
+  align-content: center;
+  width: 120px;
+  margin-right:20px;
+
+}
+
+.signinbutton
+{
+width:120px;
+height:70%;
+padding: 0;
+font-size: 13px;
+font-weight: 500;
+background-color:rgb(255, 217, 0) ;
+border-radius: 5px;
+border-width: 0;
+min-width: 100px;
+}
+
+.signinbutton:hover
+{
+opacity: 0.85;
+}
+
+.signinbutton:active
+{
+  opacity: 0.65;
+}
+
+.signupbutton
+{
+width:120px;
+height:70%;
+padding: 0;
+font-size: 13px;
+font-weight: 500;
+background-color:rgb(255, 217, 0) ;
+border-radius: 5px;
+border-width: 0;
+min-width:100px;
+
+}
+
+.signupbutton:hover
+{
+opacity: 0.85;
+}
+
+.signupbutton:active
+{
+  opacity: 0.65;
+}
+
+
+.signtext
+{
+  color: white;
+  margin: 0;
+}
